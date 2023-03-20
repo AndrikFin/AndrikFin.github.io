@@ -24,16 +24,35 @@
 html, body {
     margin: 0;
     height: 100%;
+    opacity: 1;
 }
 
 body {
     background-color: #F7F4EB;
 }
 
-.cv_desc:hover {
+.hover:hover {
     color: #FF629A;
     text-decoration: underline;
 }
+
+.hover_highlighted {
+    display: none;
+    position: absolute;
+    bottom:63%;
+    left: 35%;
+    width: 30%;
+    height: 15%;
+    z-index: -1;
+    filter: blur(1.5vh);
+    background-color: #FF629A;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
 
 h2 {
     margin-left: 2%;
