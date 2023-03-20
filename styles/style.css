@@ -31,10 +31,15 @@ body {
     background-color: #F7F4EB;
 }
 
-.hover:hover {
-    color: #FF629A;
+.hover {
     text-decoration: underline;
+    text-decoration-color: transparent;
 }
+
+    .hover:hover {
+        color: #FF629A;
+        text-decoration-color: #FF629A;
+    }
 
 .hover_highlighted {
     display: none;
