@@ -143,6 +143,7 @@ h2 {
     animation-name: slideright;
     -webkit-animation-name: slideright;
     animation-duration: 1.5s;
+    animation-delay: 0.5s;
     -webkit-animation-duration: 1.5s;
 }
 
@@ -327,12 +328,12 @@ h2 {
 @keyframes slideleft {
     from {
         margin-left: 4%;
-        opacity: 0.3;
+        opacity: 0.1;
     }
 
     to {
         margin-left: 2%;
-        opacity: 1;
+        opacity: 0.15;
     }
 }
 
@@ -345,6 +346,11 @@ h2 {
     to {
         margin-left: 2%;
         opacity: 0.15;
+    }
+
+    20% {
+        margin-left: 4%;
+        opacity: 0.1;
     }
 }
 
